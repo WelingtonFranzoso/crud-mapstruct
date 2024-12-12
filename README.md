@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-Aplicação consiste em um CRUD de usuário usando Mapstruct para converter uma Entity para um DTO, usando o Swagger para realizar as requisições. O banco de dados utilizado foi o PostgreSQL em um container Docker.
+Aplicação consiste em um CRUD de usuário usando Mapstruct para converter uma Entity para um DTO, usando o Swagger para realizar as requisições. O banco de dados utilizado foi o MySQL em um container Docker.
 
 # Tecnologias utilizadas
 - Java
@@ -12,7 +12,7 @@ Aplicação consiste em um CRUD de usuário usando Mapstruct para converter uma 
 - Maven
 - Docker
 - Swagger
-- Banco de dados: PostgreSQL
+- Banco de dados: MySQL
 
 # Como executar o projeto
 
@@ -21,7 +21,7 @@ Pré-requisitos:
 Java 17
 Maven
 Docker
-PostgreSQL
+MySQL
 
 ```bash
 # clonar repositório
