@@ -3,7 +3,16 @@
 
 # Sobre o projeto
 
-Aplicação consiste em um CRUD de usuário usando Mapstruct para converter uma Entity para um DTO, usando o Swagger para realizar as requisições. O banco de dados utilizado foi o MySQL em um container Docker.
+Este projeto é uma aplicação de CRUD (Create, Read, Update, Delete) de usuários, implementada utilizando MapStruct para conversão de uma Entity para um DTO (Data Transfer Object). A aplicação utiliza o Swagger para documentar e realizar as requisições, além de contar com um banco de dados MySQL rodando em um container Docker.
+
+# Funcionalidades
+- Cadastro de Usuários: Criação de um novo usuário com informações como nome, email e senha.
+- Leitura de Usuários: Recuperação dos dados de um ou mais usuários cadastrados.
+- Edição de Usuários: Alteração das informações de um usuário existente.
+- Remoção de Usuários: Exclusão de usuários do sistema.
+- MapStruct: Utilizado para mapear os dados entre a Entity e o DTO, facilitando a comunicação entre as camadas da aplicação.
+- Swagger: Utilizado para documentar e testar as APIs de forma interativa.
+- Banco de Dados: MySQL armazenando as informações de usuários em um container Docker.
 
 # Tecnologias utilizadas
 - Java
@@ -17,11 +26,11 @@ Aplicação consiste em um CRUD de usuário usando Mapstruct para converter uma 
 # Como executar o projeto
 
 ## Back end
-Pré-requisitos: 
+### Pré-requisitos: 
 Java 17
 Maven
 Docker
-MySQL
+MySQL (em container Docker)
 
 ```bash
 # clonar repositório
