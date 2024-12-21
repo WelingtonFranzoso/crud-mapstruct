@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-Este projeto é uma aplicação de CRUD (Create, Read, Update, Delete) de usuários, implementada utilizando MapStruct para conversão de uma Entity para um DTO (Data Transfer Object). A aplicação utiliza o Swagger para documentar e realizar as requisições, além de contar com um banco de dados MySQL rodando em um container Docker.
+Este projeto é uma aplicação de CRUD de usuários, implementada utilizando MapStruct para conversão de uma Entity para um DTO (Data Transfer Object). A aplicação utiliza o Swagger para documentar e realizar as requisições, além de contar com um banco de dados MySQL rodando em um container Docker.
 
 # Funcionalidades
 - Cadastro de Usuários: Criação de um novo usuário com informações como nome, email e senha.
